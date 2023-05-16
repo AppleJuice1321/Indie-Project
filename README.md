@@ -18,9 +18,12 @@ Når der skrives og trykkes på knappen, så finder den produktet
 
 - Profile:
 Når der klikkes på dette element, hoppes ind på en side hvor der er ens profil, navn, billede, email etc
+Hvis brugeren ikke har en profil, så oprettes et
+Hvis brugeren har en profil, så skal der blot logges ind.
 
 - Cart:
 Når der klikkes, så popper der en side frem med antal produkter gemt og hvilke det er
+Der skal gerne også tilføjes en lille bobble med et tal alt efter hvor meget man har tilføjede
 
 ** ===== Main ===== **
 - Card 1:
