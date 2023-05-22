@@ -96,4 +96,4 @@ Button On Click -> Adds +1 to the cart-indikator
 - 4x Tilbud a service i dropdowns, når der klikkes, så vises der et vindue under dropdown med relevant information.
 
 #### 2 section:
-- 4x ikoner, når der klikkes på dem, vidersendes man til den relevante social medium.
+- 4x ikoner, når der klikkes på dem, vidersendes man til den relevante sociale medium.
