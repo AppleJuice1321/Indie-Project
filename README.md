@@ -23,7 +23,7 @@ RoS tager fokus i at sælge en række produkter fra adskillige producenter og g�
 -	Virksomheden tilbyder en service til diverse ting, så som support, refundering eller rådgivning
 -	Virksomheden gør det nemmere for lokale folk at købe tilbehør til deres enheder
 -	Virksomhedens sammenarbejde med diverse producenter og reklamationer af nye produkter
--	
+
 ## SWOT-model (styrker og svagheder)
 <img width="439" alt="image" src="https://github.com/AppleJuice1321/Indie-Project/assets/117173708/dcf3169f-6d6b-4c00-9328-bfc714d5ed2b"> <br>
 
