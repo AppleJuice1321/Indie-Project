@@ -1,0 +1,39 @@
+/* Styling the navigationbar and its content */
+.primaryNavigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.primarNavigation__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 5px;
+    background-color: darkgreen;
+}
+
+.primaryNavigation__form__searchbar {
+    background-color: blueviolet;
+}
+
+.primaryNavigation__menu {
+    display: flex;
+    grid-gap: 1em;
+    background-color: aquamarine;
+}
+
+li {
+    list-style: none;
+    background-color: blue;
+}
+
+.primaryNavigation__menu-Item {
+    text-decoration: none;
+    text-align: center;
+}
+.cart {
+    text-align: center;
+    background-color: burlywood;
+}

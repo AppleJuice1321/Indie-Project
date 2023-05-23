@@ -1,0 +1,73 @@
+/* Styling the modal */
+.loginModal {
+    top: 20%;
+    margin: auto;
+    position: absolute;
+    padding: 1em;
+    width: 25em;
+    z-index: 2;
+    background-color: red;
+}
+
+.loginModal__button__close {
+    position: absolute;
+    background-color: blue;
+}
+
+.loginModal__profileImg {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* Styling the modal and its content */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .login-username, .login-password {
+    
+}
+
+.login-username-input, .login-password-input {
+
+}
+
+.login-rememberMe {
+    
+}
+
+.login-rememberMe-checkbox {
+
+} */
+
+.login__button__logIn {
+    padding: 10px;
+}
+
+.login__username__input, .login__password__input, .login__rememberMe__checkbox {
+    margin-bottom: .7em;
+}
+
+/* Background while login window is active */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+
+.hidden {
+    display: none;
+}
+
+/* Styling the button to open/close the modal */
+.profile__button {
+    text-align: center;
+    background-color: burlywood;
+}

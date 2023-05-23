@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,79 @@
     <link rel="stylesheet" href="style.css">
     <title>Republic of Sound</title>
 </head>
-<body>
-    <header>
-        <div class="PrimaryNavigation-container">
-            <nav class="PrimaryNavigation">
-                
-            </nav>
-        </div>
-    </header>
 
-    <script src="script.js"></script>
+<body>
+    <!-- ===== HEADER ==================================================================-->
+    <header>
+        <!-- Navigationbar -->
+        <nav class="primaryNavigation">
+            <!-- Logo element -->
+            <a class="logo" id="logo" href="/.">
+                <img src="https://placehold.co/150x40" alt="Republic of Sound logo">
+            </a>
+            <!-- ===== CONTAINER =======================================================-->
+            <div class="primarNavigation__container">
+                <!-- Searchbar -->
+                <form class="primaryNavigation__form__searchbar">
+                    <input class="primaryNavigation__searchbar" type="search" id="searchbar"
+                        placeholder="Search for wares...">
+                    <button class="primaryNavigation__searchbarButton">
+                        <i>Icon-Logo</i>
+                    </button>
+                </form>
+                <!-- Links -->
+                <menu class="primaryNavigation__menu">
+                    <li><a href="#" class="primaryNavigation__menu-Item">Link 1</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">Link 2</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">Link 3</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">Link 4</a></li>
+                </menu>
+
+                <!-- Profile -->
+                <button class="profile__button">
+                    <i>Icon-Profile</i>
+                </button>
+
+                <!-- Cart -->
+                <button class="cart">
+                    <i>Icon-Cart</i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ===== LOGIN MODAL ======================================================-->
+        <dialog open class="loginModal hidden">
+
+            <button class="loginModal__button__close">⨉</button>
+            <img class="loginModal__profileImg" src="https://placehold.co/200x200" alt="Repbulic of Sounds Logo">
+
+            <!-- Login formula -->
+            <form class="loginForm">
+                <!-- Username -->
+                <label class="login__username" for="username">Username</label>
+                <input class="login__username__input" id="username" type="text" placeholder="Enter Username"
+                    name="username" required>
+                <!-- Password -->
+                <label class="login__password" for="password">Password</label>
+                <input class="login__password__input" id="password" type="text" placeholder="Enter Password"
+                    name="password" required>
+                <!-- Remember me -->
+                <label class="login__rememberMe" for="remember">
+                    <input class="login__rememberMe__checkbox" id="remember" type="checkbox" checked="checked"
+                        name="remember">
+                    Remember Me
+                </label>
+                <!-- Login -->
+                <button class="login__button__logIn" type="submit">Login</button>
+            </form>
+        </dialog>
+
+        <div class="overlay hidden"></div>
+        <!-- ==================================================================-->
+    </main>
+
+    <script type="module" src="script.js"></script>
 </body>
+
 </html>
