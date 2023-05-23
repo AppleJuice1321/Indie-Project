@@ -1,6 +1,6 @@
 /* Styling the modal */
 .loginModal {
-    top: 20%;
+    top: 8em;
     margin: auto;
     position: absolute;
     padding: 1em;
@@ -9,8 +9,12 @@
     background-color: red;
 }
 
+.login__button__close__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .loginModal__button__close {
-    position: absolute;
     background-color: blue;
 }
 

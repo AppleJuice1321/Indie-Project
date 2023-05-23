@@ -26,62 +26,93 @@
                     <input class="primaryNavigation__searchbar" type="search" id="searchbar"
                         placeholder="Search for wares...">
                     <button class="primaryNavigation__searchbarButton">
-                        <i>Icon-Logo</i>
+                        <i data-feather="search"></i>
                     </button>
                 </form>
                 <!-- Links -->
                 <menu class="primaryNavigation__menu">
-                    <li><a href="#" class="primaryNavigation__menu-Item">Link 1</a></li>
-                    <li><a href="#" class="primaryNavigation__menu-Item">Link 2</a></li>
-                    <li><a href="#" class="primaryNavigation__menu-Item">Link 3</a></li>
-                    <li><a href="#" class="primaryNavigation__menu-Item">Link 4</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">About</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">Contact</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">Products</a></li>
+                    <li><a href="#" class="primaryNavigation__menu-Item">Counceling</a></li>
                 </menu>
 
+                <!-- ===== LOGIN MODAL ==================================================-->
                 <!-- Profile -->
                 <button class="profile__button">
-                    <i>Icon-Profile</i>
+                    <i data-feather="user"></i>
                 </button>
 
+                <dialog open class="loginModal hidden">
+
+                    <div class="login__button__close__container">
+                        <button class="loginModal__button__close">
+                            <i data-feather="x"></i>
+                        </button>
+                    </div>
+                    <img class="loginModal__profileImg" src="https://placehold.co/200x200"
+                        alt="Repbulic of Sounds Logo">
+
+                    <!-- Login formula -->
+                    <form class="loginForm">
+                        <!-- Username -->
+                        <label class="login__username" for="username">Username</label>
+                        <input class="login__username__input" id="username" type="text" placeholder="Enter Username"
+                            name="username" required>
+                        <!-- Password -->
+                        <label class="login__password" for="password">Password</label>
+                        <input class="login__password__input" id="password" type="text" placeholder="Enter Password"
+                            name="password" required>
+                        <!-- Remember me -->
+                        <label class="login__rememberMe" for="remember">
+                            <input class="login__rememberMe__checkbox" id="remember" type="checkbox" checked="checked"
+                                name="remember">
+                            Remember Me
+                        </label>
+                        <!-- Login -->
+                        <button class="login__button__logIn" type="submit">Login</button>
+                    </form>
+                </dialog>
+
+                <div class="overlay hidden"></div>
+                <!-- ==================================================================-->
+
+                <!-- ===== CART MODAL ================================================-->
                 <!-- Cart -->
                 <button class="cart">
-                    <i>Icon-Cart</i>
+                    <i data-feather="shopping-cart"></i>
                 </button>
+
+                <!-- ==================================================================-->
             </div>
         </nav>
     </header>
+
+    <!-- ===== MAIN ==================================================================-->
     <main>
-        <!-- ===== LOGIN MODAL ======================================================-->
-        <dialog open class="loginModal hidden">
+        <article class="autoSlideshow__container">
+            <img class="autoSlideshow__img" src="https://placehold.co/600x400" alt="Slideshow of Product">
+            <div class="autoSlideshow__text__container">
+                <p class="autoSlideshow__text__p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti repellendus mollitia facilis quisquam earum. Praesentium corrupti delectus ipsum tenetur in, officiis, nisi veritatis ipsa illum magnam quaerat sit obcaecati.</p>
+                <p class="autoSlideshow__text__p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti repellendus mollitia facilis quisquam earum. Praesentium corrupti delectus ipsum tenetur in, officiis, nisi veritatis ipsa illum magnam quaerat sit obcaecati.</p>
+                <button class="autoSlideshow__text__button"> See product</button>
+            </div>
+        </article>
 
-            <button class="loginModal__button__close">⨉</button>
-            <img class="loginModal__profileImg" src="https://placehold.co/200x200" alt="Repbulic of Sounds Logo">
 
-            <!-- Login formula -->
-            <form class="loginForm">
-                <!-- Username -->
-                <label class="login__username" for="username">Username</label>
-                <input class="login__username__input" id="username" type="text" placeholder="Enter Username"
-                    name="username" required>
-                <!-- Password -->
-                <label class="login__password" for="password">Password</label>
-                <input class="login__password__input" id="password" type="text" placeholder="Enter Password"
-                    name="password" required>
-                <!-- Remember me -->
-                <label class="login__rememberMe" for="remember">
-                    <input class="login__rememberMe__checkbox" id="remember" type="checkbox" checked="checked"
-                        name="remember">
-                    Remember Me
-                </label>
-                <!-- Login -->
-                <button class="login__button__logIn" type="submit">Login</button>
-            </form>
-        </dialog>
 
-        <div class="overlay hidden"></div>
-        <!-- ==================================================================-->
+        <div class="products__container">
+            <article class="products headsets"></article>
+            <article class="products headphones"></article>
+            <article class="products earpods"></article>
+        </div>
     </main>
 
     <script type="module" src="script.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+      </script>
 </body>
 
 </html>

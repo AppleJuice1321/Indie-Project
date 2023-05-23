@@ -3,6 +3,8 @@
 @import url("./assets/css/login.css");
 @import url("./assets/css/body.css");
 @import url("./assets/css/variables.css");
+@import url("./assets/css/wares.css");
+@import url("./assets/css/slideshow.css");
 
 * {
     margin: 0;
