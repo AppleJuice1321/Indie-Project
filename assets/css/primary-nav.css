@@ -1,39 +1,80 @@
-/* Styling the navigationbar and its content */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.logo__img {
+    display: block;
+}
+
 .primaryNavigation {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    background-color: yellow;
-}
-
-.primarNavigation__container {
-    display: flex;
-    justify-content: space-between;
+    align-items: center;
     gap: 1em;
-    padding: 5px;
-    background-color: darkgreen;
+    margin-left: 14em;
 }
 
-.primaryNavigation__form__searchbar {
-    background-color: blueviolet;
+.primaryNavigation__form__searchengine {
+    display: flex;
+}
+
+.primaryNavigation__searchbar {
+    display: block;
+    border-style: none;
+    padding: 8px 3em 8px 8px;
+    border-radius: 17px;
+    width: 20em;
+}
+
+.primaryNavigation__searchbarButton {
+    position: absolute;
+    border-style: none;
+    margin: 0.2em 0 0 17.7em;
+    border-radius: 7px;
+    background: transparent;
 }
 
 .primaryNavigation__menu {
     display: flex;
-    grid-gap: 1em;
-    background-color: aquamarine;
+    gap: 1em;
 }
 
 li {
+    text-align: center;
     list-style: none;
-    background-color: blue;
 }
 
 .primaryNavigation__menu-Item {
+    display: block;
     text-decoration: none;
+    width: 6em;
+    padding: 0.6em;
+    color: black;
+}
+
+.primaryNavigation__menu-Item:hover {
+    padding-bottom: 8px;
+    color: black;
+    border-bottom: solid black 1px;
+}
+
+.profile_cart_container {
+    display: flex;
+    align-items: center;
     text-align: center;
 }
-.cart {
+
+.cart, .profile__button {
     text-align: center;
-    background-color: burlywood;
+    border-style: none;
+    background: transparent;
+    height: 100%;
+    width: 6em;
+}
+
+.cart:hover, .profile__button:hover {
+    color: white;
+    background-color: black;
 }

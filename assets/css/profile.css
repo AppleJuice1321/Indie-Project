@@ -1,0 +1,20 @@
+.profile__main {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.profile__container {
+    text-align: center;
+    padding: 2em;
+    max-width: 30em;
+    background-color: yellow;
+}
+
+.profile__img {
+    border-radius: 50%;
+}
+
+.profile__inner__container {
+
+}

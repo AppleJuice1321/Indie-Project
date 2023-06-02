@@ -1,0 +1,39 @@
+.card__outer__container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 2em;
+    padding: 0.5em;
+    height: 18em;
+    width: 20em;
+    border-radius: 1em;
+    border: solid black 2px;
+    background-color: var(--second-color);
+}
+
+.card_heading {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.card {
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__sliders {
+    margin-top: 1em;
+    text-align: center;
+}

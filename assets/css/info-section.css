@@ -1,0 +1,41 @@
+.info__section {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    padding: 0.5em 1em;
+    background-color: var(--main-light-color);
+}
+
+.info__section_text__heading {
+    font-size: 1.6em;
+}
+
+.info__section_text__description {
+    font-size: 0.8em;
+}
+
+.info__section__signUp__newsletter {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.signUp__email {
+    align-items: center;
+    border-style: none;
+    width: 20em;
+    height: 2.5em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.signUp__button {
+    width: 8em;
+    height: 2em;
+    border-radius: 0.5em;
+    border-style: none;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: var(--main-color);
+}

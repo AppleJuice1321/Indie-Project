@@ -1,12 +1,14 @@
 /* Styling the modal */
 .loginModal {
+    border-style: none;
+    border-radius: 15px;
     top: 8em;
     margin: auto;
-    position: absolute;
+    position: fixed;
     padding: 1em;
     width: 25em;
     z-index: 2;
-    background-color: red;
+    background-color: var(--main-light-color);
 }
 
 .login__button__close__container {
@@ -15,7 +17,11 @@
 }
 
 .loginModal__button__close {
-    background-color: blue;
+    border-style: none;
+    background: transparent;
+    padding: 2px;
+    height: 2.4em;
+    border-radius: 50%;
 }
 
 .loginModal__profileImg {
@@ -30,31 +36,35 @@
     flex-direction: column;
 }
 
-/* .login-username, .login-password {
+.login__username, .login__password {
+
+}
+
+.login__username__input, .login__password__input {
+    border-style: none;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.login__rememberMe {
     
 }
 
-.login-username-input, .login-password-input {
+.login__rememberMe__checkbox {
 
 }
-
-.login-rememberMe {
-    
-}
-
-.login-rememberMe-checkbox {
-
-} */
 
 .login__button__logIn {
+    border-style: none;
     padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(0, 222, 0);
 }
 
 .login__username__input, .login__password__input, .login__rememberMe__checkbox {
     margin-bottom: .7em;
 }
 
-/* Background while login window is active */
 .overlay {
     position: fixed;
     top: 0;
@@ -68,10 +78,4 @@
 
 .hidden {
     display: none;
-}
-
-/* Styling the button to open/close the modal */
-.profile__button {
-    text-align: center;
-    background-color: burlywood;
 }

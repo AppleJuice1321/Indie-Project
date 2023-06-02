@@ -1,6 +1,7 @@
 header {
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    padding: 10px;
-    background-color: red;
-    border: solid black 3px;
+    background-color: var(--main-light-color);
 }

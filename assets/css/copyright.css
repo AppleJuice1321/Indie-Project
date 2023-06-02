@@ -1,0 +1,7 @@
+.copyright__section {
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    border-top: solid white 1px;
+    background-color: var(--second-color);
+}

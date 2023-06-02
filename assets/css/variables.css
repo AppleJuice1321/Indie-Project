@@ -1,6 +1,11 @@
 :root {
     --main-color:#8EC1D6;
     --second-color:#3D4B5F;
-    --main-light-color:#CBD5E1;
+    --main-light-color:#E5EAF0;
     --second-light-color:#F8FAFC;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 }
