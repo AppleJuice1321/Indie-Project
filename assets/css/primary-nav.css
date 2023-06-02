@@ -78,3 +78,14 @@ li {
     color: white;
     background-color: black;
 }
+
+.cart__counter {
+    display: block;
+    position: absolute;
+    top: 0.5em;
+    right: 1.2em;
+    height: 1.1em;
+    width: 1em;
+    border-radius: 50%;
+    background-color: orange;
+}
